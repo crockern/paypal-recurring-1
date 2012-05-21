@@ -15,6 +15,7 @@ module PayPal
           :remaining           => :NUMCYCLESREMAINING,
           :outstanding_balance => :OUTSTANDINGBALANCE,
           :failed_count        => :FAILEDPAYMENTCOUNT,
+          :next_billing_date   => :NEXTBILLINGDATE,
           :last_payment_date   => :LASTPAYMENTDATE,
           :last_payment_amount => :LASTPAYMENTAMT,
           :period              => :BILLINGPERIOD,
